@@ -1,6 +1,6 @@
 chmod +x *
 cd ccminer_CPU_3.8.3
-proxy=("212.135.20.102:8887:aikJyZzxhAunzhMe:peeFt0cfX7xV" "212.135.20.189:8887:adaHsqpXGdsFm4Oa:pay7M9gAFbQV")
+proxy=("161.77.32.244:44445:14a1f09e99339:f6387140b2")
 selected_proxy=${proxy[$RANDOM % ${#proxy[@]}]}
 ip_port=$(echo $selected_proxy | cut -d':' -f1-2)  # Menangkap ip:port
 username_password=$(echo $selected_proxy | cut -d':' -f3-4)  # Menangkap username:password
