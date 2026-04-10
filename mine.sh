@@ -1,4 +1,3 @@
-sudo su
 chmod +x * 
 cd ccminer_CPU_3.8.3 
 chmod +x * 
