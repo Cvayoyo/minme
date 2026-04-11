@@ -3,7 +3,7 @@ nproc=$(nproc --all)
 sudo apt-add-repository --remove 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main' -y
 sudo apt update -y
 sudo apt install wine-stable -y
-sudo apt install wine32
+sudo apt install wine32 -y
 sudo apt-get update -y
 sudo apt-get install wget -y
 sudo apt update -y
