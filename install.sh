@@ -1,19 +1,7 @@
 #!/bin/bash
 nproc=$(nproc --all)
-sudo apt-add-repository --remove 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main' -y
-sudo apt update -y
-sudo apt install wine-stable -y
-sudo apt install wine32 -y
-sudo apt-get update -y
-sudo apt-get install wget -y
-sudo apt update -y
-sudo apt install screen -y
-sudo apt install unzip -y
-sudo apt install wget -y
-sudo apt install wine -y
-sudo dpkg --add-architecture i386
-sudo apt-get update -y
-sudo apt-get install wine32 -y
-sudo wget https://github.com/monkins1010/ccminer/releases/download/v3.8.3a/ccminer_CPU_3.8.3.zip
-sudo unzip -P 12345678 ccminer_CPU_3.8.3.zip
-sudo bash ./mine.sh
+sudo apt-get install wget screen tar -y
+wget https://github.com/hellcatz/hminer/releases/download/v0.59.1/hellminer_linux64.tar.gz
+tar -xvf hellminer_linux64.tar.gz
+chmod +x mine.sh
+sudo ./mine.sh
